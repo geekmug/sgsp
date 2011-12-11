@@ -1,0 +1,20 @@
+SCSI Generic Security Protocol
+
+This tool is designed to manipulate the configuration of SCSI devices that
+support the Security Protocol standard. This tool supports toggling the
+encryption/decryption mode as well as setting the encryption/decryption key.
+
+Usage: sgsp.py [options] [device]
+
+Options:
+  -h, --help            show this help message and exit
+  -e, --enable          enable encryption/decryption (default)
+  -d, --disable         disable encryption/decryption
+  -v, --verbose         be noisy about everything
+  -p FD, --password-from-fd=FD
+                        read password from file descriptor num
+  -P FILE, --password-from-file=FILE
+                        read password from file
+  -T, --twice           ask password twice
+  -H HASH, --hash=HASH  set password hash function (default: sha256)
+  -r RAW, --raw=RAW     disable hashing of password
