@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 __license__ = """
-Copyright 2011 Scott A. Dial
+Copyright 2011 Scott A. Dial <scott@scottdial.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
