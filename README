@@ -4,6 +4,15 @@ This tool is designed to manipulate the configuration of SCSI devices that
 support the Security Protocol standard. This tool supports toggling the
 encryption/decryption mode as well as setting the encryption/decryption key.
 
+====
+
+Dependencies:
+
+  - lssci (http://sg.danny.cz/scsi/lsscsi.html)
+  - sg3_utils (http://sg.danny.cz/sg/)
+
+====
+
 Usage: sgsp.py [options] [device]
 
 Options:
