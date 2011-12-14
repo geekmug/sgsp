@@ -8,7 +8,7 @@ encryption/decryption mode as well as setting the encryption/decryption key.
 
 Dependencies:
 
-  - lssci (http://sg.danny.cz/scsi/lsscsi.html)
+  - lsscsi (http://sg.danny.cz/scsi/lsscsi.html)
   - sg3_utils (http://sg.danny.cz/sg/)
 
 ====
